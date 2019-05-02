@@ -102,7 +102,7 @@ Appending records to an existing excel sheet.
 
     %utlfkil(d:/xls/class.xlsx);
     libname xel "d:/xls/class.xlsx";
-    data xel.have;
+    data xel.class;
       set sashelp.class(obs=2);
     run;quit;
     libname xel clear;
